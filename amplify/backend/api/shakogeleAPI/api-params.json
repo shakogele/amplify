@@ -1,0 +1,48 @@
+{
+    "paths": [
+        {
+            "name": "/items",
+            "lambdaFunction": "shakogeleAPI",
+            "privacy": {
+                "protected": true,
+                "auth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ],
+                "unauth": [
+                    "/POST",
+                    "/GET",
+                    "/PUT",
+                    "/PATCH",
+                    "/DELETE"
+                ]
+            }
+        }
+    ],
+    "resourceName": "shakogeleAPI",
+    "apiName": "shakogeleAPI",
+    "functionArns": [
+        {
+            "lambdaFunction": "shakogeleAPI"
+        }
+    ],
+    "privacy": {
+        "auth": 1,
+        "unauth": 1,
+        "authRoleName": "todoapp-test-20191017155017-authRole",
+        "unAuthRoleName": "todoapp-test-20191017155017-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "shakogeleAPI",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ]
+}

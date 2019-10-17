@@ -1,0 +1,19 @@
+{
+    "test": {
+        "awscloudformation": {
+            "AuthRoleName": "todoapp-test-20191017155017-authRole",
+            "UnauthRoleArn": "arn:aws:iam::411112216374:role/todoapp-test-20191017155017-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::411112216374:role/todoapp-test-20191017155017-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "todoapp-test-20191017155017-deployment",
+            "UnauthRoleName": "todoapp-test-20191017155017-unauthRole",
+            "StackName": "todoapp-test-20191017155017",
+            "StackId": "arn:aws:cloudformation:eu-central-1:411112216374:stack/todoapp-test-20191017155017/4a491fb0-f0d4-11e9-8dfd-0a43c0b04aee"
+        },
+        "categories": {
+            "auth": {
+                "todoappe2f84af0": {}
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "AppSyncApiName": "shakogele",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authtodoappe2f84af0",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
